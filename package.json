@@ -1,19 +1,30 @@
 {
   "name": "cippalippa",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Official bot's valefangirl01 for your server land",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "readme": "README.md",
+  "author": "Coly <andreacolellaa@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperColy/Cippalippa/"
   },
-  "author": "Andrea Colella",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperColy/Cippalippa/issues"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordapp"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "dependencies": {
-    "discord.js": "^11.5.1"
-  }
-}
-{
-  "scripts": {
-    "build": "[my-framework] build --output public"
+    "discord.js": "*",
+    "youtube-node": "1.2.x",
+    "query-string": "3.*",
+    "request": ">=2.58.0"
   }
 }
