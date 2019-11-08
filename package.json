@@ -1,0 +1,14 @@
+{
+  "name": "cippalippa",
+  "version": "1.0.0",
+  "description": "Official bot's valefangirl01 for your server land",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Colella",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
