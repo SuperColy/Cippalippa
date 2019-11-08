@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "build": "[my-framework] build --output public",
+  "build": "node index.js build --output public",
   "directories": {
     "lib": "./lib"
   },
