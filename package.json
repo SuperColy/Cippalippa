@@ -14,6 +14,6 @@
 }
 {
   "scripts": {
-    "build": "Cippalippa build --output public"
+    "build": "[my-framework] build --output public"
   }
 }
